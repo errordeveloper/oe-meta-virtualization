@@ -4,6 +4,10 @@ SRC_URI += "file://xt-checksum.scc \
             file://ebtables.scc \
 	    file://vswitch.scc \
 	    file://lxc.scc \
+	    file://bridge.scc \
+	    file://devpts-multiple-instances.scc \
+	    file://xt-addrtype.scc \
+	    file://xt-conntrack.scc \
 	    "
 module_autoload_openvswitch = "openvswitch"
 KERNEL_FEATURES_append = " features/kvm/qemu-kvm-enable.scc"
